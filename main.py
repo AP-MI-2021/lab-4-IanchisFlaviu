@@ -66,6 +66,8 @@ def prim(i):
 
 
 def isSuperPrim(i):
+    if i==0:
+        return False
     while prim(i):
         i = i // 10
     if i == 0:
