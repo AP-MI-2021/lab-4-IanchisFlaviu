@@ -138,6 +138,8 @@ def test_superPrime():
     assert (lst == [])
 
 
+
+
 def test_prim():
     assert prim(4) == 0
     assert prim(2) == 1
